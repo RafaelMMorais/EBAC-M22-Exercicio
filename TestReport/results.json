@@ -1,0 +1,215 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectRoot": "C:\\repositorio\\EBAC-Mod22-Exercicio",
+    "projectName": "EBAC-Mod22-Exercicio",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\repositorio\\EBAC-Mod22-Exercicio\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalJustInTimeCompile": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\repositorio\\EBAC-Mod22-Exercicio",
+    "fixturesFolder": "C:\\repositorio\\EBAC-Mod22-Exercicio\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 58986,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "20.16.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\repositorio\\EBAC-Mod22-Exercicio\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\repositorio\\EBAC-Mod22-Exercicio\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\repositorio\\EBAC-Mod22-Exercicio\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "129",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "129.0.6668.59"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "129",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "129.0.2792.52"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\rafae\\AppData\\Local\\Cypress\\Cache\\13.14.2\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.14.2",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.14.2",
+  "endedTestsAt": "2024-09-24T14:12:24.356Z",
+  "osName": "win32",
+  "osVersion": "10.0.19045",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 4,
+        "passes": 4,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-09-24T14:12:17.564Z",
+        "end": "2024-09-24T14:12:24.362Z",
+        "duration": 6798
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/repositorio/EBAC-Mod22-Exercicio/cypress/e2e/exMod22e23.cy.js",
+        "fileExtension": ".js",
+        "fileName": "exMod22e23",
+        "name": "exMod22e23.cy.js",
+        "relative": "cypress\\e2e\\exMod22e23.cy.js"
+      },
+      "stats": {
+        "duration": 6799,
+        "endedAt": "2024-09-24T14:12:24.356Z",
+        "failures": 0,
+        "passes": 4,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-09-24T14:12:17.557Z",
+        "suites": 1,
+        "tests": 4
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 3138,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "Deve fazer o login com sucesso"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2364,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "Deve fazer checkout"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 632,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "Categorias de pesquisa devem aparecer visiveis"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 627,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "Categorias deve ser vazia e com erro"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-09-24T14:12:17.557Z",
+  "totalDuration": 6799,
+  "totalFailed": 0,
+  "totalPassed": 4,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 1,
+  "totalTests": 4
+}
